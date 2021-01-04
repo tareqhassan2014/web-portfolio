@@ -1,30 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 body{
-    margin: 0px;
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient( white, rgb(217, 253, 251));
-}
-
-h1{
-    font-size: 50px;
-}
-h2{
-    font-size: 40px;
+    /* background-image: linear-gradient(rgb(255, 250, 239), white, rgb(217, 253, 251)); */
+    margin: 0px;
 }
 p{
     color: dimgray;
 }
+h1{
+    font-size: 2.5rem;
+}
 .orange-highlight{
     color: orange;
-}
-.half-width{
-    width:40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
-.half-width img{
-    width: 100%;
 }
 .top-banner{
     background: url("./Images/top-banner.png");
@@ -34,30 +21,39 @@ p{
 section{
     height: 500px;
     padding-bottom: 150px;
+    margin-bottom: 50px;
 }
-.link-button{
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-btn{
     text-decoration: none;
+    text-transform: uppercase;
+    color: white;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 20px;
+    font-weight: bold;
     border-radius: 5px;
-    color: white;
-    font-weight: 700;
 }
 .dream-area{
-    background: url("./Images/dream-bg.png");
+    background-image: url("./Images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 75%;
-    background: white;
+#experiance{
+    text-align: center;
 }
-.experience-area{
-    background: url("./Images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
+.single-experiance{
+    box-shadow: 10px 10px 30px rgba(212, 211, 211, 0.993);
+    height: 50%;
+    background: white;
+    border-radius: 5px;
 }
 #full-stack{
     border-left: 7px solid;
@@ -66,10 +62,10 @@ section{
 }
 #baby-web{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
+    border-image: linear-gradient(180deg, rgb(187, 187, 235), rgb(150, 235, 235));
     border-image-slice: 1;
 }
+
 footer p{
     text-align: center;
-    color: rgb(56, 6, 6);
 }
