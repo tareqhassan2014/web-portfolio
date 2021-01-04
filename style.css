@@ -2,6 +2,7 @@
 body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient( rgb(195, 248, 239), rgb(108, 233, 255));
 }
 
 h1{
@@ -28,6 +29,7 @@ p{
 .top-banner{
     background: url("./Images/top-banner.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 section{
     height: 500px;
@@ -49,7 +51,7 @@ section{
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 80%;
+    height: 75%;
     background: white;
 }
 .experience-area{
@@ -69,4 +71,5 @@ section{
 }
 footer p{
     text-align: center;
+    color: rgb(56, 6, 6);
 }
