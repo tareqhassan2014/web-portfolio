@@ -41,6 +41,11 @@ section{
     font-weight: bold;
     border-radius: 5px;
 }
+.link-btn:hover{
+    background-image: linear-gradient(45deg, tomato, lightsalmon);
+    transition: all ease 0.2s;
+
+}
 .dream-area{
     background-image: url("./Images/dream-bg.png");
     background-repeat: no-repeat;
@@ -54,6 +59,9 @@ section{
     height: 50%;
     background: white;
     border-radius: 5px;
+}
+.single-experiance:hover{
+    box-shadow: none;
 }
 #full-stack{
     border-left: 7px solid;
